@@ -7,6 +7,7 @@ import DialogContent from '@mui/material/DialogContent';
 import DialogTitle from '@mui/material/DialogTitle';
 
 
+
 export default function Addcustomer(props){
     const [open, setOpen] = React.useState(false);
     const [customer, setCustomer] = React.useState({
@@ -40,7 +41,7 @@ export default function Addcustomer(props){
       </Button>
 
       <Dialog open={open} onClose={handleClose}>
-        <DialogTitle>New Car</DialogTitle>
+        <DialogTitle>New Customer</DialogTitle>
         <DialogContent>
           <TextField
             autoFocus
